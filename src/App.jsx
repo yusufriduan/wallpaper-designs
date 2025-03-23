@@ -14,7 +14,7 @@ function App() {
         <h6>why think about wallpaper designs,<br />when you can just slaps into template?</h6>
         <div className='buttons'>
           <button className='start'>Get started!</button>
-          <a className='favourite' href='https://www.github.com/yusufriduan/'>
+          <a className='favourite' href='https://www.github.com/yusufriduan/wallpaper-designs'>
             <i class="fa fa-bookmark-o" style={{ fontSize: '25px' }}></i>
           </a>
         </div>
