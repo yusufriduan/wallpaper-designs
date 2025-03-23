@@ -35,11 +35,14 @@ body h6 {
   display: flex;
   justify-content: center;
   margin-top: 1em;
+  align-items: center;
 }
 
 .start {
+  background-color: #e8e0e0;
   height: 43px;
   width: 150px;
+  margin: 0 0.25em;
   border-radius: 6.25rem;
   border: 4px solid #151515;
   font-weight: bold;
@@ -54,14 +57,26 @@ body h6 {
 }
 
 .favourite {
-  height: 30px;
+  height: 24px;
   border-radius: 6.25rem;
   border: 4px solid #151515;
   font-weight: bolder;
-  margin-left: 1em;
+  margin: 0 0.25em;
   padding: 0.25em;
   transition: all 0.3s ease;
   text-decoration: none;
   color: #151515;
+  background-color: #e8e0e0;
 }
 
+.footer p {
+  text-align: center;
+  font-size: small;
+  font-weight: lighter;
+  margin-top: 1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}

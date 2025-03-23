@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import favIcon from './static/star_favorite_3421.ico';
+import Footer from './components/footer.jsx';
 import './App.css';
 
 
@@ -15,10 +14,11 @@ function App() {
         <div className='buttons'>
           <button className='start'>Get started!</button>
           <a className='favourite' href='https://www.github.com/yusufriduan/wallpaper-designs'>
-            <i class="fa fa-bookmark-o" style={{ fontSize: '25px' }}></i>
+            <i class="fa fa-bookmark-o" style={{ fontSize: '24px', display: 'flex' }}></i>
           </a>
         </div>
-        </header>
+        <Footer />
+      </header>
     </div>
   );
 }
