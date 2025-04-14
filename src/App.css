@@ -29,6 +29,7 @@ body h6 {
   font-weight: lighter;
   text-align: center;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .buttons {
@@ -102,4 +103,8 @@ body h6 {
   background-color: #d9d9d9;
   border: none;
   border-bottom: #151515 2px solid;
+}
+
+svg {
+  position: relative
 }
